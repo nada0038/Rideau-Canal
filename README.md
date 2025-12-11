@@ -36,7 +36,7 @@ The Rideau Canal Skateway is one of Ottawa's most popular winter attractions, re
 
 ## System Architecture
 
-An architecture diagram is available in the `architecture\architecture.md`.
+An architecture diagram is available in the [`architecture\architecture.md`](https://github.com/nada0038/Rideau-Canal/blob/main/architecture/architecture.md).
 
 
 ### Azure Services Utilized
