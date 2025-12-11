@@ -1,4 +1,4 @@
-## README
+## LINKS
 
 **Readme:** [Readme](https://github.com/nada0038/Rideau-Canal/blob/main/README.md)
 
@@ -12,4 +12,4 @@
 
 ## Demo
 
-**Demo link:** [Youtube](https://youtu.be/Ig093kcf11U)
+**Demo link:** [Youtube]()
