@@ -107,7 +107,7 @@ This configuration optimizes query performance when retrieving the latest data f
 ### 5. Azure Blob Storage Configuration
 
 All processed data is archived to Blob Storage for long-term analysis:
-- **Container:** `historical-data`
+- **Container:** `logsdata`
 - **Path Pattern:** `aggregations/{date}/{time}`
 - **Format:** JSON (line-separated)
 - **Purpose:** Permanent record of all sensor readings and aggregations
