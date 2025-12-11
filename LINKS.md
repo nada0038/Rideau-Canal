@@ -1,4 +1,4 @@
-## README
+## LINKS
 
 **Readme:** [Readme](https://github.com/nada0038/Rideau-Canal/blob/main/README.md)
 
