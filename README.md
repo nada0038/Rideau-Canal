@@ -251,13 +251,11 @@ Screenshots in the `screenshots/` folder demonstrate the system's operation, sho
 - Debugging assistance for specific errors
 - Command syntax examples
 - Code formatting guidance
-- Documentation structure templates
+- Documentation structuring
 
 **Original Work:**
 - All business logic and safety status calculations
 - Stream Analytics query design and implementation
-- Dashboard UI design and functionality
-- Azure service configuration and integration
 - System testing and debugging
 - Complete understanding of all system components
 
