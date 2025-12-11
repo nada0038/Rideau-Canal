@@ -36,7 +36,7 @@ The Rideau Canal Skateway is one of Ottawa's most popular winter attractions, re
 
 ## System Architecture
 
-An architecture diagram is available in the `architecture\architecture.md`.
+An architecture diagram is available in the [`architecture\architecture.md`](https://github.com/nada0038/Rideau-Canal/blob/main/architecture/architecture.md).
 
 
 ### Azure Services Utilized
@@ -107,7 +107,7 @@ This configuration optimizes query performance when retrieving the latest data f
 ### 5. Azure Blob Storage Configuration
 
 All processed data is archived to Blob Storage for long-term analysis:
-- **Container:** `historical-data`
+- **Container:** `logsdata`
 - **Path Pattern:** `aggregations/{date}/{time}`
 - **Format:** JSON (line-separated)
 - **Purpose:** Permanent record of all sensor readings and aggregations
@@ -251,13 +251,11 @@ Screenshots in the `screenshots/` folder demonstrate the system's operation, sho
 - Debugging assistance for specific errors
 - Command syntax examples
 - Code formatting guidance
-- Documentation structure templates
+- Documentation structuring
 
 **Original Work:**
 - All business logic and safety status calculations
 - Stream Analytics query design and implementation
-- Dashboard UI design and functionality
-- Azure service configuration and integration
 - System testing and debugging
 - Complete understanding of all system components
 
