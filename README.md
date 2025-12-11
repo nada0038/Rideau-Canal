@@ -20,7 +20,7 @@ This project implements a comprehensive real-time monitoring system for the Ride
 
 - **Web Dashboard Repository:** [rideau-canal-dashboard](https://github.com/nada0038/rideau-canal-dashboard)
 
-- **Video Demonstration:** [YouTube Link](     )
+- **Video Demonstration:** [YouTube Link](https://youtu.be/Ig093kcf11U)
 
 ## Project Overview
 
