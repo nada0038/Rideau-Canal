@@ -143,45 +143,35 @@ Screenshots demonstrating the system in operation are available in the `screensh
 3. Stream Analytics query editor with the processing query
 4. Stream Analytics job status showing running state
 5. Cosmos DB Data Explorer with sample aggregated documents
-6. Blob Storage container with archived data files
+6. Blob Storage container
 7. Dashboard running locally with live data
-8. Dashboard deployed on Azure App Service
 
-## Setup Instructions
-
-### Prerequisites
-
-- Azure account with active subscription
-- Node.js (version 14 or higher)
-- Python 3.8 or higher
-- Git installed
-- Azure CLI (optional, for command-line operations)
 
 ### High-Level Setup Steps
 
 1. **Azure Resources Setup**
-   - Create Resource Group
-   - Create IoT Hub and register three devices
-   - Create Stream Analytics job
-   - Create Cosmos DB account, database, and container
-   - Create Storage Account and container
-   - Create App Service for dashboard deployment
+   - Created Resource Group
+   - Created IoT Hub and register three devices
+   - Created Stream Analytics job
+   - Created Cosmos DB account, database, and container
+   - Created Storage Account and container
+   - Created App Service for dashboard deployment
 
 2. **Stream Analytics Configuration**
-   - Configure IoT Hub as input
-   - Configure Cosmos DB as output
-   - Configure Blob Storage as output
+   - Configured IoT Hub as input
+   - Configured Cosmos DB as output
+   - Configured Blob Storage as output
    - Deploy query from `stream-analytics/query.sql`
-   - Start the Stream Analytics job
+   - Started the Stream Analytics job
 
 3. **Sensor Simulator Setup**
-   - See detailed instructions in [sensor simulation repository](https://github.com/yourusername/rideau-canal-sensor-simulation)
+   - See detailed instructions in [sensor simulation repository](https://github.com/nada0038/rideau-canal-sensor-simulation)
    - Obtain device connection strings from IoT Hub
    - Configure environment variables
    - Run the simulator
 
 4. **Dashboard Setup**
-   - See detailed instructions in [dashboard repository](https://github.com/yourusername/rideau-canal-dashboard)
+   - See detailed instructions in [dashboard repository](https://github.com/nada0038/rideau-canal-dashboard)
    - Obtain Cosmos DB credentials
    - Configure environment variables
    - Run locally or deploy to Azure App Service
@@ -254,10 +244,6 @@ Screenshots in the `screenshots/` folder demonstrate the system's operation, sho
   - Learning Azure CLI command syntax
   - Understanding code formatting and best practices
   - Troubleshooting configuration issues
-
-- **GitHub Copilot** - Used for:
-  - Code completion suggestions
-  - Stream Analytics query syntax assistance
 
 ### Extent of AI Assistance
 
